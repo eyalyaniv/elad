@@ -1,0 +1,59 @@
+body{
+	background-color:#C8C2AC;
+	height:2000px;
+	direction: rtl;
+}
+
+#maincontainer{
+	top:0px;
+	z-index: 11;
+	left: 50%;
+	margin-left: -490px;
+	position: absolute;
+	overflow: hidden;			
+	width: 980px;
+	height: 2000px;
+	margin-left: -490px;
+	left: 50%;
+	border:none;
+	background-color:#EAE8DF;
+}
+#mainheader{
+	background-color:#2C1609;
+}
+#mainmenu{
+	background-color:white;
+	-moz-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.6) !important;
+    -webkit-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.6) !important;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.6)!important;
+}
+.nav .nav-pills{
+	
+}
+#contentcontainer{
+	width:980px;
+	height:100%;
+}
+#textcontainer{
+	width: 780px;
+	background-color: transparent;
+	height: 100%;
+	float: left;
+	margin-top:19px;
+}
+#rightpane{
+	width: 190px;
+	background-color: white;
+	height: 100%;
+	float: right;
+	margin-top:19px;
+	-moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6) !important;
+	-webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6) !important;
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6)!i
+}
+.sidemenuitem{
+	width: 100%;
+	position: relative;
+	text-align:center;
+	
+}

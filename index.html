@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<link rel="stylesheet" href="./css/bootstrap-rtl.min.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<title>Elad Ben Dror</title>
+	<style>
+		body{
+			background-color:#C8C2AC;
+			height:2000px;
+			direction: rtl;
+		}
+		
+		#maincontainer{
+			top:0px;
+			z-index: 11;
+			left: 50%;
+			margin-left: -490px;
+			position: absolute;
+			overflow: hidden;			
+			width: 980px;
+			height: 2000px;
+			margin-left: -490px;
+			left: 50%;
+			border:none;
+			background-color:#EAE8DF;
+		}
+		#mainheader{
+			background-color:#2C1609;
+		}
+		#mainmenu{
+			background-color:white;
+			-moz-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.6) !important;
+		    -webkit-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.6) !important;
+		    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.6)!important;
+		}
+		.nav .nav-pills{
+			
+		}
+		#contentcontainer{
+			width:980px;
+			height:100%;
+		}
+		#textcontainer{
+			width: 780px;
+			background-color: transparent;
+			height: 100%;
+			float: left;
+			margin-top:19px;
+		}
+		#rightpane{
+			width: 190px;
+			background-color: white;
+			height: 100%;
+			float: right;
+			margin-top:19px;
+			-moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6) !important;
+			-webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6) !important;
+			box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6)!i
+		}
+		.sidemenuitem{
+			width: 100%;
+			position: relative;
+			text-align:center;
+			
+		}
+	</style>
+</head>
+<body>
+	<div id="maincontainer">
+		<div id="mainheader" style="top:0px;left:0px;width:980px;height:114px;">
+			<img id="logoimg" src="./img/eladlogo.png" style="margin-left:10px;"></img>
+		</div>
+		<div id="mainmenu">
+			
+			<ul class="nav nav-pills" style="font-size: 20px;">
+			  <li><a class="topmenuitem" id="topmenu1" href="#">עמוד הבית</a></li>
+			  <li><a class="topmenuitem" id="topmenu2" href="#">דף הבית</a></li>
+			  <li><a class="topmenuitem" id="topmenu3" href="#">עדכונים</a></li>
+			  <li><a class="topmenuitem" id="topmenu4" href="#">קישורים</a></li>
+			  <li><a class="topmenuitem" id="topmenu5" href="#">צור קשר</a></li>
+			</ul>
+		</div>
+		<div id="mainpicture">
+			<img id="mainimg" src="./img/mainpicture.png" style="margin-top: 0px;"></img>
+		</div>
+		<div id="contentcontainer">
+			<div id="textcontainer">
+				<div>
+				<object data="plain.txt" type="text/plain"
+				width="100%" style="height: 10em">
+				<a href="plain.txt">Embedded Text Document</a>
+				</object>
+				</div>
+			</div>
+			<div id="rightpane">
+				<ul class="nav nav-pills" style="font-size: 18px;">
+				  <li class="sidemenuitem"><a id="sidemenu1" href="#">חובת דיווח</a></li>
+				  <li class="sidemenuitem"><a id="sidemenu2" href="#">מועדי</a></li>
+				  <li class="sidemenuitem"><a id="sidemenu3" href="#">עדכונים</a></li>
+				  <li class="sidemenuitem"><a id="sidemenu4" href="#">קישורים</a></li>
+				  <li class="sidemenuitem"><a id="sidemenu5" href="#">צור קשר</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+		var pagecontent = {"pagetext": [
+								{"topmenu1": ''}
+							]};
+		//binding click event to the top menu items.
+		$('.topmenuitem').on('click', function(){
+			console.log('clicked!');
+		});
+		$('.sidemenuitem').on('click', function(){
+			console.log('clicked!');
+		});
+	});
+	</script>
+</body>

@@ -20,23 +20,24 @@
 		<div id="mainmenu">
 			
 			<ul id="topmenu" class="nav nav-pills" style="font-size: 20px;">
-			  <li><a class="topmenuitem" id="topmenu1" href="#">דף הבית</a></li>
+			  <li><a class="topmenuitem" id="topmenu1" href="#">אודות</a></li>
 			  <li class="dropdown">
 			                <a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">מקרקעין <b class="caret"></b></a>
 			                <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
-			                  <li class="topmenuitem" id="topmenu2" role="presentation"><a role="menuitem" tabindex="-1" href="#">מדריך לרוכש דירה</a></li>
-			                  <li class="topmenuitem" id="topmenu3" role="presentation"><a role="menuitem" tabindex="-1" href="#">מדריך למוכר דירה</a></li>
-			                  <li class="topmenuitem" id="topmenu4" role="presentation"><a role="menuitem" tabindex="-1" href="#">השכם שכירות</a></li>
-							  <li class="topmenuitem" id="topmenu5" role="presentation"><a role="menuitem" tabindex="-1" href="#">תמ"א 38</a></li>
+			                  <li class="topmenuitem" id="topmenu2" role="presentation"><a role="menuitem" tabindex="-1" href="#">שכירות</a></li>
+			                  <li class="topmenuitem" id="topmenu3" role="presentation"><a role="menuitem" tabindex="-1" href="#">מס שבח</a></li>
+			                  <li class="topmenuitem" id="topmenu4" role="presentation"><a role="menuitem" tabindex="-1" href="#">תמ"א 38</a></li>
+							  <li class="topmenuitem" id="topmenu5" role="presentation"><a role="menuitem" tabindex="-1" href="#">מוסדות התכנון והבנייה</a></li>
 							  <li class="topmenuitem" id="topmenu6" role="presentation"><a role="menuitem" tabindex="-1" href="#">תביעה לפינוי מושכר</a></li>
-			                  <li class="topmenuitem" id="topmenu7" role="presentation"><a role="menuitem" tabindex="-1" href="#">שיתוף/פירוק</a></li>
+			                  <li class="topmenuitem" id="topmenu7" role="presentation"><a role="menuitem" tabindex="-1" href="#">מנהל מקרקעי ישראל</a></li>
+							  <li class="topmenuitem" id="topmenu8" role="presentation"><a role="menuitem" tabindex="-1" href="#">נחלה</a></li>
 			                </ul>
 			  </li>
-			  <li><a class="topmenuitem" id="topmenu8" href="#">קישורים</a></li>
-			  <li><a class="topmenuitem" id="topmenu9" href="#">עדכונים</a></li>
-			  <li><a class="topmenuitem" id="topmenu10" href="#">צרכנות</a></li>
-			  <li><a class="topmenuitem" id="topmenu11" href="#">ביטוח לאומי</a></li>
-			  <li><a class="topmenuitem" id="topmenu12" href="#">צור קשר</a></li>
+			  <li><a class="topmenuitem" id="topmenu9" href="#">צוואות</a></li>
+			  <li><a class="topmenuitem" id="topmenu10" href="#">עדכונים</a></li>
+			  <li><a class="topmenuitem" id="topmenu11" href="#">צרכנות</a></li>
+			  <li><a class="topmenuitem" id="topmenu12" href="#">ביטוח לאומי</a></li>
+			  <li><a class="topmenuitem" id="topmenu13" href="#">צור קשר</a></li>
 			</ul>
 		</div>
 		
@@ -53,8 +54,14 @@
 		
 		<div id="contentcontainer">
 			<div id="textcontainer">
-				<div class="textheader " type="Text" style="top:58px;left:663px;width:90px;height:25px;"><p dir="rtl">	<span style="color:#222526"><span style="font-family: arial,helvetica,sans-serif;"><span id="textareaheader" style="font-size: 18px;">sdsdsdsdsd</span></span></span></p></div>
+				<div class="textheader " type="Text" style="top:58px;left:663px;width:90px;height:25px;"><p dir="rtl">	<span style="color:#222526"><span style="font-family: arial,helvetica,sans-serif;"><span id="textareaheader" style="font-size: 18px;"></span></span></span></p></div>
 				<div id="textcontent">
+					<div class="innerText " type="Text" style="top:113px;left:34px;width:720px;height:298px;">
+						<p dir="rtl" style="text-align: justify;">
+							
+							
+						</p>
+					</div>
 					
 				</div>
 			</div>
@@ -68,35 +75,38 @@
 		</div>
 		
 	</div>
+	
 	<script>
 	
 	// add צרכנות to top menu ביטוח לאומי
 	
-	var topmenuobj = {"topmenu1": [{"sidemenu1": 'אודותינו'}], 
-						"topmenu2" : [{"sidemenu1": 'סוגי שכירות'}, {"sidemenu2": 'טיפים למשכיר'}, {"sidemenu3": 'טיפים לשוכר'}],
-						"topmenu3" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu4" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu5" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu6" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu7" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu8" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu9" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu10" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu11" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
-						"topmenu12" : [{"sidemenu1": 'עדכונים 1'}, {"sidemenu2": 'עדכונים 2'}, {"sidemenu3": 'עדכונים 3'}, {"sidemenu4": 'עדכונים 4'}, {"sidemenu5": 'עדכונים 5'}],
+	var topmenuobj = {"topmenu1": [{"sidemenu1": 'אודות'}], 
+						"topmenu2" : [{"sidemenu1": 'שכירות'}, {"sidemenu2": 'טיפים למשכיר'}, {"sidemenu3": 'טיפים לשוכר'}],
+						"topmenu3" : [{"sidemenu1": 'מס שבח'}],
+						"topmenu4" : [{"sidemenu1": 'תמ"א 38'}],
+						"topmenu5" : [{"sidemenu1": 'מוסדות התכנון והבנייה'}],
+						"topmenu6" : [{"sidemenu1": 'תביעה לפינוי מושכר'}],
+						"topmenu7" : [{"sidemenu1": 'מנהל מקרקעי ישראל'}],
+						"topmenu8" : [{"sidemenu1": 'נחלה'}],
+						"topmenu9" : [{"sidemenu1": 'צוואות'}],
+						"topmenu10" : [{"sidemenu1": 'עדכונים'}],
+						"topmenu11" : [{"sidemenu1": 'צרכנות'}],
+						"topmenu12" : [{"sidemenu1": 'ביטוח לאומי'}],
+						"topmenu13" : [{"sidemenu1": 'צור קשר'}],
 						};
-	var sidemenuitemscontent = {"topmenu1": [{"sidemenu1": '&lt;div class=&quot;innerText27 &quot; type=&quot;Text&quot; style=&quot;top:113px;left:34px;width:720px;height:298px;&quot;&gt;&lt;p dir=&quot;rtl&quot; style=&quot;text-align: justify;&quot;&gt;&lt;font color=&quot;#222526&quot; face=&quot;arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;גולש&#x2F;ת יקר&#x2F;ה,&lt;br&gt;&lt;br&gt;באתר עולם הנדל&quot;ן קיים מידע מפורט בכל הקשור בדיני מקרקעין וכן במיסוי מקרקעין.&lt;br&gt;&lt;br&gt;&lt;&#x2F;span&gt;&lt;&#x2F;font&gt;&lt;span style=&quot;font-size: 14px; color: rgb(34, 37, 38); font-family: arial, helvetica, sans-serif;&quot;&gt;משרדינו מטפל בקשת רחבה של נושאים בתחום הנדל&quot;ן והמקרקעין, ושירותינו ניתנים הן ללקוחות פרטיים והן לחברות.&lt;&#x2F;span&gt;&lt;font color=&quot;#222526&quot; face=&quot;arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;br&gt;למותר לציין, כי למרות המידע הרב הקיים באתר זה, עסקת נדל&quot;ן הינה לרוב עסקה מורכבת מאוד וטומנת בחובה סיכונים רבים &amp;nbsp;וביצועה מצריך ליווי משפטי.&lt;br&gt;&lt;br&gt;ה&quot;אני מאמין&quot; שלי הינו יחס אישי ומתן תשומת לב לכל לקוח ודאגה לצרכיו האישיים.&lt;br&gt;&lt;br&gt;משרדינו חרת על דגלו מתן שירות משפטי תוך כדי הכרה אישית של כל לקוח והקפדה על זמינות ומתן מענה אישי על ידי עורכי הדין.&lt;br&gt;&lt;br&gt;&lt;br&gt;אשמח לעמוד לרשותכם בכל דבר ועניין.&lt;br&gt;&lt;br&gt;הילה יעקב עו&quot;ד.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;&#x2F;span&gt;&lt;&#x2F;font&gt;&lt;span style=&quot;color:#d3d3d3;&quot;&gt;&lt;font face=&quot;arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;u&gt;הבהרה משפטית:&amp;nbsp;&lt;&#x2F;u&gt;&lt;br&gt;&lt;br&gt;המידע המוגש מהווהמידע כללי בלבד ואינו מהווה תחליף לקבלת חוות דעת מקצועית ו&#x2F;או ייעוץ מששפטי.&lt;br&gt;&lt;br&gt;התכנים אינם מתיימרים להיות מקיפים ו&#x2F;או עדכניים, יש לקחת בחשבון שמידע משפטי מטבעו מתיישן ולכן כל המסתמך על המידע המוגש באתר זה עושה זאת על אחריותו המלאה ועל דעת עצמו בלבד.&lt;br&gt;&lt;br&gt;לקבלת ייעוץ משפטי בתחום המקרקעין &amp;nbsp;ובתחום מיסוי המקרקעין ניתן ליצור קשר עם משרדינו.&lt;br&gt;&lt;br&gt;משרד: 03-6511899 פקס: 03-5043828 נייד: 054-6619696 מייל: Hilaj.law@gmail.com&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;font&gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d3d3d3;&quot;&gt;&lt;font face=&quot;arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;font&gt;&lt;&#x2F;span&gt;&lt;font color=&quot;#222526&quot; face=&quot;arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;font&gt;&lt;&#x2F;p&gt;&lt;&#x2F;div&gt;'}], 
-								"topmenu2" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}],
-								"topmenu3" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu4" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu5" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu6" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu7" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu8" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu9" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu10" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu11" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
-								"topmenu12" : [{"sidemenu1": ''}, {"sidemenu2": ''}, {"sidemenu3": ''}, {"sidemenu4": ''}, {"sidemenu5": ''}],
+	var sidemenuitemscontent = {"topmenu1" : [{"sidemenu1": ''}],
+								"topmenu2" : [{"sidemenu1": ''}],
+								"topmenu3" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
+								"topmenu4" : [{"sidemenu1": ''}],
 								};
 						
 							
@@ -109,10 +119,12 @@
 		$('.topmenuitem').on('click', function(){
 			var id = this.id;
 			currentActiveTopMenu = id;
+			populateTextArea("sidemenu1");
 				$('#rightpane').animate({
 	                        		marginRight: -200
 	            				}, 400, 'swing', function() {
 													createSideMenuItems(id);
+													
 													$('.sidemenuitem').on('click', function(){
 														var id = this.childNodes[0].id;
 														populateTextArea(id);
@@ -145,7 +157,7 @@
 		var sidemenunum = parseInt(sidemenunumstr[0], 10) - 1;
 		$('#textareaheader, #textcontent').empty();
 		$('#textareaheader').text(topmenuobj[currentActiveTopMenu][sidemenunum][id]);
-		
+		$(_.unescape(sidemenuitemscontent[currentActiveTopMenu][sidemenunum][id])).appendTo('#textcontent')
 	};
 	</script>
 </body>

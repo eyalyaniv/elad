@@ -1,6 +1,6 @@
 body{
 	background-color:#C8C2AC;
-	height:2000px;
+	/*height:2000px;*/
 	direction: rtl;
 }
 
@@ -12,7 +12,7 @@ body{
 	position: absolute;
 	overflow: hidden;			
 	width: 980px;
-	height: 2000px;
+	/*height: 2000px;*/
 	margin-left: -490px;
 	left: 50%;
 	border:none;
@@ -70,7 +70,7 @@ body{
 	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6)!i
 }
 #textcontent{
-	width: 100%;
+	width: 90%;
 	height: 80%;
 	margin-top: 10px;
 	padding-top: 10px;
@@ -80,5 +80,9 @@ body{
 	width: 100%;
 	position: relative;
 	text-align:center;
+	
+}
+#seperatorline{
+	width:50%;
 	
 }

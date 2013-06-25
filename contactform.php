@@ -41,37 +41,37 @@ if(isset($_POST['submitted']))
 <body>
 
 <!-- Form Code Start -->
-<form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' dir="rtl">
 <fieldset >
-<legend>Contact us</legend>
+<legend></legend>
 
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
 <input type='text'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
 
-<div class='short_explanation'>* required fields</div>
+<div class='short_explanation'>* שדות חובה</div>
 
 <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
 <div class='container'>
-    <label for='name' >Your Full Name*: </label><br/>
+    <label for='name' >שם מלא *: </label><br/>
     <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" /><br/>
     <span id='contactus_name_errorloc' class='error'></span>
 </div>
 <div class='container'>
-    <label for='email' >Email Address*:</label><br/>
+    <label for='email' >כתובת דואר אלקטרוני*:</label><br/>
     <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" /><br/>
     <span id='contactus_email_errorloc' class='error'></span>
 </div>
 
 <div class='container'>
-    <label for='message' >Message:</label><br/>
+    <label for='message' >הודעה:</label><br/>
     <span id='contactus_message_errorloc' class='error'></span>
     <textarea rows="10" cols="50" name='message' id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
 </div>
 
 
 <div class='container'>
-    <input type='submit' name='Submit' value='Submit' />
+    <input type='submit' name='שלח' value='שלח' />
 </div>
 
 </fieldset>
